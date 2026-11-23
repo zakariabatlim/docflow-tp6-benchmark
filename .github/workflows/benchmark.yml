@@ -1,12 +1,6 @@
 name: Benchmark TP-6 sous Windows
 on:
   workflow_dispatch:
-    inputs:
-      facturation_verifiee:
-        description: "Quota et plafond de dépenses contrôlés par le titulaire du dépôt"
-        type: boolean
-        required: true
-        default: false
 permissions:
   contents: read
 concurrency:
@@ -14,14 +8,24 @@ concurrency:
   cancel-in-progress: false
 jobs:
   benchmark:
-    if: ${{ inputs.facturation_verifiee && github.event.repository.private && github.event.repository.name == 'docflow-tp6-benchmark' && github.ref_name == github.event.repository.default_branch }}
+    if: >-
+      ${{ github.event_name == 'workflow_dispatch' &&
+          github.repository == 'zakariabatlim/docflow-tp6-benchmark' &&
+          github.repository_id == '1468141569' &&
+          toJSON(github.event.repository.private) == 'false' &&
+          github.ref == 'refs/heads/main' }}
     runs-on: windows-2025
     timeout-minutes: 20
     defaults:
       run:
         shell: pwsh
     steps:
-      - name: Lire uniquement le dépôt privé dédié
+      - name: Vérifier le nom exact de la branche
+        run: |
+          if ($env:GITHUB_REF -cne 'refs/heads/main') {
+            throw 'Le benchmark est réservé à la branche main.'
+          }
+      - name: Lire uniquement le dépôt public dédié
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           persist-credentials: false
