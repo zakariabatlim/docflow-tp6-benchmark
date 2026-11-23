@@ -1,0 +1,15 @@
+{
+  "source_sha256": {
+    "images.py": "e7e6729bfd8631b679950d65eeb816d24e9c82a425103b5a4b57037a3e541af3",
+    "grid.py": "0ca369abbc13e4735bd43e693769ac21bcc35049f653c7c32f60d9bc1bf4e045",
+    "geometry.py": "0bd49d2f6fa611cf1fadc1bfd592647488fd7dff57682cbb4c2104f2d56f7936"
+  },
+  "extract_sha256": {
+    "errors.py": "c2285feedf6fddd31bf54101f1d790ca806d292b9273437a82dfd7d97ba0bfb0",
+    "geometry.py": "9443824235d76ef448caebf66dfcda48ec23496987cc4ad84147fa4227c73889",
+    "grid.py": "18c30e9ac33396c44eef75681bb1b49b7cb2b6faaad97e347d90777670563297",
+    "images.py": "2afd8864b42824613f375c1f2d1cc43887d320969ebc0477ca9a8c7d3bf112b0",
+    "__init__.py": "3213db54e345d1c3e46c93a5974e3191e6a81d2a5b4c95855f31ab255bff4de3"
+  },
+  "reason": "Couche d'import Django/Pillow et validation des formulaires retirees. Corps du detecteur, seuils, limites et geometrie conserves."
+}

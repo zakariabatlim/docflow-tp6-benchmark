@@ -1,0 +1,218 @@
+{
+  "total_bytes": 77630593,
+  "model_revision": "7dbe640e127602bf506815e822c09758de73c482",
+  "status": "download_verified",
+  "files": [
+    {
+      "type": "modele",
+      "file": "inference.onnx",
+      "size_bytes": 7782138,
+      "url": "https://huggingface.co/PaddlePaddle/SLANet_plus_onnx/resolve/7dbe640e127602bf506815e822c09758de73c482/inference.onnx",
+      "publisher_metadata": "https://huggingface.co/api/models/PaddlePaddle/SLANet_plus_onnx/revision/7dbe640e127602bf506815e822c09758de73c482",
+      "tree_metadata": "https://huggingface.co/api/models/PaddlePaddle/SLANet_plus_onnx/tree/7dbe640e127602bf506815e822c09758de73c482",
+      "revision": "7dbe640e127602bf506815e822c09758de73c482",
+      "license": "Apache-2.0",
+      "download_host": "us.aws.cdn.hf.co",
+      "sha256": "7790c0c13ce064782c9d22ebeb16b4da8216f83d3ba576da962c106ef58386da",
+      "verification": {
+        "sha256": "7790c0c13ce064782c9d22ebeb16b4da8216f83d3ba576da962c106ef58386da"
+      }
+    },
+    {
+      "type": "modele",
+      "file": "inference.yml",
+      "size_bytes": 2035,
+      "url": "https://huggingface.co/PaddlePaddle/SLANet_plus_onnx/resolve/7dbe640e127602bf506815e822c09758de73c482/inference.yml",
+      "publisher_metadata": "https://huggingface.co/api/models/PaddlePaddle/SLANet_plus_onnx/revision/7dbe640e127602bf506815e822c09758de73c482",
+      "tree_metadata": "https://huggingface.co/api/models/PaddlePaddle/SLANet_plus_onnx/tree/7dbe640e127602bf506815e822c09758de73c482",
+      "revision": "7dbe640e127602bf506815e822c09758de73c482",
+      "license": "Apache-2.0",
+      "download_host": "huggingface.co",
+      "sha256": "8a6372d3269a6f112fe13a2da7952a84da6e112c10a3146cbb43de5bd01d19fa",
+      "verification": {
+        "git_blob_sha1": "9d57e936f02d62335817f936d6e779e811f56d2a"
+      }
+    },
+    {
+      "type": "wheels",
+      "file": "onnxruntime-1.32.0-cp313-cp313-win_amd64.whl",
+      "package": "onnxruntime",
+      "version": "1.32.0",
+      "size_bytes": 16697937,
+      "url": "https://files.pythonhosted.org/packages/6f/ee/a776ccc71ba54de3739c20c7c815d9695c55db1d08e2b3c621452676c23f/onnxruntime-1.32.0-cp313-cp313-win_amd64.whl",
+      "publisher_metadata": "https://pypi.org/pypi/onnxruntime/1.32.0/json",
+      "license_check": "MIT",
+      "license_reference": "https://onnxruntime.ai/",
+      "download_host": "files.pythonhosted.org",
+      "sha256": "c7f9aa98036ba2a47aa041a4a8c6d0a1f7bfe1bde44c131dcd15ce334f2f148d",
+      "verification": {
+        "sha256": "c7f9aa98036ba2a47aa041a4a8c6d0a1f7bfe1bde44c131dcd15ce334f2f148d"
+      },
+      "license_declared_in_wheel": "MIT License",
+      "notices_in_wheel": [
+        "onnxruntime/LICENSE",
+        "onnxruntime/ThirdPartyNotices.txt"
+      ],
+      "requires_dist": [
+        "flatbuffers",
+        "numpy>=1.21.6",
+        "packaging",
+        "protobuf>=4.25.8",
+        "sympy; extra == \"symbolic\"",
+        "ml_dtypes; extra == \"quantization\""
+      ]
+    },
+    {
+      "type": "wheels",
+      "file": "numpy-2.4.2-cp313-cp313-win_amd64.whl",
+      "package": "numpy",
+      "version": "2.4.2",
+      "size_bytes": 12310848,
+      "url": "https://files.pythonhosted.org/packages/43/bc/6352f343522fcb2c04dbaf94cb30cca6fd32c1a750c06ad6231b4293708c/numpy-2.4.2-cp313-cp313-win_amd64.whl",
+      "publisher_metadata": "https://pypi.org/pypi/numpy/2.4.2/json",
+      "license_check": "BSD-3-Clause",
+      "license_reference": "https://numpy.org/doc/2.4/license.html",
+      "download_host": "files.pythonhosted.org",
+      "sha256": "7df2de1e4fba69a51c06c28f5a3de36731eb9639feb8e1cf7e4a7b0daf4cf622",
+      "verification": {
+        "sha256": "7df2de1e4fba69a51c06c28f5a3de36731eb9639feb8e1cf7e4a7b0daf4cf622"
+      },
+      "license_declared_in_wheel": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "notices_in_wheel": [
+        "numpy/ma/LICENSE",
+        "numpy/random/LICENSE.md",
+        "numpy/_core/include/numpy/random/LICENSE.txt",
+        "numpy-2.4.2.dist-info/licenses/LICENSE.txt",
+        "numpy-2.4.2.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy-2.4.2.dist-info/licenses/numpy/ma/LICENSE",
+        "numpy-2.4.2.dist-info/licenses/numpy/random/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy-2.4.2.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy-2.4.2.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "numpy-2.4.2.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy-2.4.2.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy-2.4.2.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE"
+      ],
+      "requires_dist": []
+    },
+    {
+      "type": "wheels",
+      "file": "opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "package": "opencv-python-headless",
+      "version": "4.13.0.92",
+      "size_bytes": 40070414,
+      "url": "https://files.pythonhosted.org/packages/4a/90/b338326131ccb2aaa3c2c85d00f41822c0050139a4bfe723cfd95455bd2d/opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "publisher_metadata": "https://pypi.org/pypi/opencv-python-headless/4.13.0.92/json",
+      "license_check": "Apache",
+      "license_reference": "https://github.com/opencv/opencv/blob/4.13.0/LICENSE",
+      "download_host": "files.pythonhosted.org",
+      "sha256": "77a82fe35ddcec0f62c15f2ba8a12ecc2ed4207c17b0902c7a3151ae29f37fb6",
+      "verification": {
+        "sha256": "77a82fe35ddcec0f62c15f2ba8a12ecc2ed4207c17b0902c7a3151ae29f37fb6"
+      },
+      "license_declared_in_wheel": "Apache 2.0",
+      "notices_in_wheel": [
+        "cv2/LICENSE-3RD-PARTY.txt",
+        "cv2/LICENSE.txt",
+        "cv2/data/haarcascade_license_plate_rus_16stages.xml",
+        "opencv_python_headless-4.13.0.92.dist-info/LICENSE-3RD-PARTY.txt",
+        "opencv_python_headless-4.13.0.92.dist-info/LICENSE.txt"
+      ],
+      "requires_dist": [
+        "numpy<2.0; python_version < \"3.9\"",
+        "numpy>=2; python_version >= \"3.9\""
+      ]
+    },
+    {
+      "type": "wheels",
+      "file": "pyyaml-6.0.3-cp313-cp313-win_amd64.whl",
+      "package": "PyYAML",
+      "version": "6.0.3",
+      "size_bytes": 154090,
+      "url": "https://files.pythonhosted.org/packages/97/c9/39d5b874e8b28845e4ec2202b5da735d0199dbe5b8fb85f91398814a9a46/pyyaml-6.0.3-cp313-cp313-win_amd64.whl",
+      "publisher_metadata": "https://pypi.org/pypi/PyYAML/6.0.3/json",
+      "license_check": "MIT",
+      "license_reference": "https://github.com/yaml/pyyaml/blob/6.0.3/LICENSE",
+      "download_host": "files.pythonhosted.org",
+      "sha256": "79005a0d97d5ddabfeeea4cf676af11e647e41d81c9a7722a193022accdb6b7c",
+      "verification": {
+        "sha256": "79005a0d97d5ddabfeeea4cf676af11e647e41d81c9a7722a193022accdb6b7c"
+      },
+      "license_declared_in_wheel": "MIT",
+      "notices_in_wheel": [
+        "pyyaml-6.0.3.dist-info/licenses/LICENSE"
+      ],
+      "requires_dist": []
+    },
+    {
+      "type": "wheels",
+      "file": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "package": "flatbuffers",
+      "version": "25.12.19",
+      "size_bytes": 26661,
+      "url": "https://files.pythonhosted.org/packages/e8/2d/d2a548598be01649e2d46231d151a6c56d10b964d94043a335ae56ea2d92/flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "publisher_metadata": "https://pypi.org/pypi/flatbuffers/25.12.19/json",
+      "license_check": "Apache",
+      "license_reference": "https://github.com/google/flatbuffers/blob/v25.12.19/LICENSE",
+      "download_host": "files.pythonhosted.org",
+      "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4",
+      "verification": {
+        "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+      },
+      "license_declared_in_wheel": "Apache 2.0",
+      "notices_in_wheel": [],
+      "requires_dist": []
+    },
+    {
+      "type": "wheels",
+      "file": "protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+      "package": "protobuf",
+      "version": "7.36.2",
+      "size_bytes": 456514,
+      "url": "https://files.pythonhosted.org/packages/8a/55/b77bda4e5e5f5971fb51b07663694690e9afdb9402136c16a522bd621cad/protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+      "publisher_metadata": "https://pypi.org/pypi/protobuf/7.36.2/json",
+      "license_check": "BSD",
+      "license_reference": "https://pypi.org/project/protobuf/7.36.2/",
+      "download_host": "files.pythonhosted.org",
+      "sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353",
+      "verification": {
+        "sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353"
+      },
+      "license_declared_in_wheel": "3-Clause BSD License",
+      "notices_in_wheel": [
+        "protobuf-7.36.2.dist-info/LICENSE"
+      ],
+      "requires_dist": []
+    },
+    {
+      "type": "wheels",
+      "file": "packaging-26.3-py3-none-any.whl",
+      "package": "packaging",
+      "version": "26.3",
+      "size_bytes": 129956,
+      "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "publisher_metadata": "https://pypi.org/pypi/packaging/26.3/json",
+      "license_check": "Apache-2.0 OR BSD-2-Clause",
+      "license_reference": "https://pypi.org/project/packaging/26.3/",
+      "download_host": "files.pythonhosted.org",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "verification": {
+        "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+      },
+      "license_declared_in_wheel": "Apache-2.0 OR BSD-2-Clause",
+      "notices_in_wheel": [
+        "packaging-26.3.dist-info/licenses/LICENSE",
+        "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "packaging-26.3.dist-info/licenses/LICENSE.BSD"
+      ],
+      "requires_dist": []
+    }
+  ]
+}

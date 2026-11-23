@@ -1,0 +1,15 @@
+/.venv-tp6/
+/modele/
+/wheels/
+/rapports/
+*.onnx
+*.whl
+*.zip
+*.part
+*.sqlite*
+*.sql
+*.dump
+*.bak
+.env
+.env.*
+__pycache__/
